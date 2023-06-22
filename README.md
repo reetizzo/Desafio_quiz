@@ -1,2 +1,2 @@
 # Desafio_quiz
-Html / Css ? Javascript
+Html / Css / Javascript
