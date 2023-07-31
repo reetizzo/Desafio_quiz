@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+
+body {
+  background-color: #3AA6B9;
+  color: #ffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#name {
+  width: 280px;
+}
+
+h1 {
+  color: #27374D;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 15px;
+
+}
+
+.button {
+  background-color: #D3D04F;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: 10px;
+  width: 90%;
+  border-radius: 6px;
+  height: 48px;
+  transition: filter 0.2s;
+  margin: 8px;
+  margin-left: 25px;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #82827d;
+  filter: brightness(0.8);
+  transition: background 2s;
+
+}
+
+
+.voltar {
+  background-color: #82827d;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 5px;
+
+}
+
+.perguntas {
+  border: 1px solid;
+  padding: 10px;
+  margin-right: 1em;
+  margin-left: 10px;
+  align-items: center;
+}

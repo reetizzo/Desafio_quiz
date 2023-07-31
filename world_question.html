@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>quiz_curiosidades51</title>
+
+  <head>
+    <script src="world_question.js"></script>
+  </head>
+
+<body>
+  <form>
+    <div class="container">
+      <div class="perguntas">
+        <h3>Questão 1: Em qual país a feijoada tem origem?</h3>
+        <input type="radio" id="portugal" name="foodQuestion" value="portugal">
+        <label for="portugal">Portugal</label><br>
+
+        <input type="radio" id="brasil" name="foodQuestion" value="brasil">
+        <label for="brasil">Brasil</label><br>
+
+        <input type="radio" id="africa" name="foodQuestion" value="africa">
+        <label for="africa">África</label>
+        </br>
+        <button type="button" onclick="showWorldFoodResponse()" class="button">Responder e ver resultado</button>
+      </div>
+  </form>
+
+  <div class="perguntas">
+    <form>
+      <h3> Questão 2: Qual a culinária mais famosa do mundo?</h3>
+      <input type="radio" id="americana" name="famousFoodQuestion" value="americana">
+      <label for="americana">Americana</label><br>
+
+      <input type="radio" id="italiana" name="famousFoodQuestion" value="italiana">
+      <label for="italiana">Italiana</label><br>
+
+      <input type="radio" id="portuguesa" name="famousFoodQuestion" value="portuguesa">
+      <label for="portugesa">Portuguesa</label>
+      </br>
+      <button type="button" onclick="showFamousFoodQuestion()" class="button">Responder e ver resultado</button>
+  </div>
+  </form>
+
+  </form>
+  <form>
+    <div class="perguntas">
+      <h3>Questão 3: Qual o alimento mais consumido do mundo? </h3>
+      <input type="radio" id="cafe" name="consumedFoodQuestion" value="cafe">
+      <label for="cafe">Café</label><br>
+
+      <input type="radio" id="batata" name="consumedFoodQuestion" value="batata">
+      <label for="batata">Batata</label><br>
+
+      <input type="radio" id="leite" name="consumedFoodQuestion" value="leite">
+      <label for="leite">Leite</label>
+      </br>
+      <button type="button" onclick="showMostConsumedFood()" class="button">Responder e ver resultado</button>
+    </div>
+    <a href="./index.html" class="voltar">Voltar</a>
+    </div>
+  </form>
+</body>
+
+</html>
